@@ -1,0 +1,33 @@
+#klawisze {
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 360px;
+    width: 350px;
+
+    position: fixed;
+    top: 10%;
+    left: 35%;
+
+
+}
+
+.przycisk1,
+.przycisk2,
+.przycisk3 {
+    height: 60px;
+    width: 60px;
+    background-color: lightblue;
+    text-align: center;
+
+    margin-left: 45px;
+    margin-top: 40px;
+    float: left;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: xx-large;
+
+}
